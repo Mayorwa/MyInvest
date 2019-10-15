@@ -1,0 +1,41 @@
+.heading{
+    margin: 0px !important;
+}
+.num{
+    margin: 0px;
+    width: 26px;
+    text-align: center;
+    height: 26px;
+    padding-top: 2px;
+}
+.bill-num{
+    border: 1px solid rgb(26, 107, 214);
+    border-radius: 50%;
+    margin: 0px;
+    width: 26px;
+    text-align: center;
+    height: 26px;
+    padding-top: 2px;
+}
+.invis{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+.card-heading a{
+    font-weight: 500;
+    text-align: center;
+}
+.card-bing{
+    text-align: center;
+}
+.dropdown-menu-right .card-title{
+    display: none;
+}
+.btn-forinv{
+    width: 200px;
+    margin-left:auto;
+}
+.btn-forinv-12{
+    margin-bottom: 10px;
+}
