@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5028ac81-e2bd-4c77-a6f5-a2ea9dbdd593" name="Default Changelist" comment="" />
+    <list default="true" id="5028ac81-e2bd-4c77-a6f5-a2ea9dbdd593" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,24 +18,16 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>URL::asset</find>
+      <find>URL::secure_asset</find>
     </findStrings>
     <replaceStrings>
       <replace>URL::secure_asset</replace>
+      <replace>secure_asset</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Dell\Documents\MyInvest\resources\views</dir>
@@ -176,17 +171,6 @@
               <item name="MyInvest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyInvest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyInvest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyInvest" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyInvest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyInvest" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -230,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571144042962</updated>
-      <workItem from="1571144044232" duration="876000" />
+      <workItem from="1571144044232" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed">
       <created>1571144233609</created>
@@ -239,11 +223,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571144233609</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed">
+      <created>1571144982531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571144982531</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed">
+      <created>1571145167145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571145167145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="876000" />
+    <option name="totallyTimeSpent" value="2013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="520">
+          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
         </state>
       </provider>
     </entry>
