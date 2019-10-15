@@ -27,6 +27,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>URL::asset</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>URL::secure_asset</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Dell\Documents\MyInvest\resources\views</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>

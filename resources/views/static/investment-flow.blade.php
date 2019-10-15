@@ -106,7 +106,7 @@
                                                         </div>
 
                                                         <div class="wpb_wrapper">
-                                                            <h4>Then you are an investor…… Yaayyyyy.<img src="{{URL::secure_asset('/smile.png')}}" style="width: 100px;">
+                                                            <h4>Then you are an investor…… Yaayyyyy.<img src="{{secure_asset('/smile.png')}}" style="width: 100px;">
                                                             </h4>
                                                         </div>
 

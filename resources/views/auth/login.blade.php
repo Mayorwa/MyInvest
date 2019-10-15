@@ -11,7 +11,7 @@
                                 @include('template.errors')
                                 <div class="kt-login__logo">
                                     <a href="{{URL('/')}}">
-                                        <img src="{{URL::secure_asset('logos/dark.png')}}" style="width: 190px; height: 65px;">
+                                        <img src="{{secure_asset('logos/dark.png')}}" style="width: 190px; height: 65px;">
                                     </a>
                                 </div>
 
@@ -119,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="kt-grid__item kt-grid__item--fluid kt-grid__item--center kt-grid kt-grid--ver kt-login__content fhsco-imig-bg" style="background-image: url({{URL::secure_asset('login/overlay.png')}});">
+                <div class="kt-grid__item kt-grid__item--fluid kt-grid__item--center kt-grid kt-grid--ver kt-login__content fhsco-imig-bg" style="background-image: url({{secure_asset('login/overlay.png')}});">
                     <div class="kt-login__section">
                         <div class="kt-login__block">
                             <h3 class="kt-login__title">Start Your Investment Journey</h3>

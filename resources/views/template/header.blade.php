@@ -10,7 +10,7 @@
                 <div class="header-comp-logo">
                     <h1>
                         <a class="homey_logo" href="{{URL('/')}}">
-                            <img src="{{URL::secure_asset('logos/dark.png')}}" alt="Myycrib" title="MyyCrib">
+                            <img src="{{secure_asset('logos/dark.png')}}" alt="Myycrib" title="MyyCrib">
                         </a>
                     </h1>
                 </div>
@@ -94,7 +94,7 @@
                         <div class="mobile-logo text-center">
                             <h1>
                                 <a href="{{URL('/')}}">
-                                    <img src="{{URL::secure_asset('logos/icon-light.png')}}" alt="MYYINVEST" title="MYYINVEST">
+                                    <img src="{{secure_asset('logos/icon-light.png')}}" alt="MYYINVEST" title="MYYINVEST">
                                 </a>
                             </h1>
                         </div><!-- mobile-logo -->

@@ -183,7 +183,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Owerri</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/owerri.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/owerri.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -192,7 +192,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Ibadan</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/Ibadan.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/Ibadan.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -201,7 +201,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Ogun</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/ogun.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/ogun.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -210,7 +210,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Lagos</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/lagos.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/lagos.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -218,7 +218,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Abuja</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/abujae.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/abujae.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -226,7 +226,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Imo</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/enugu.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/enugu.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -234,7 +234,7 @@
                                                     <div class="taxonomy-item taxonomy-card">
                                                         <a class="taxonomy-link hover-effect">
                                                             <div class="taxonomy-title">Enugu</div>
-                                                            <img class="img-responsive" src="{{URL::secure_asset('destinations/abuja.jpg')}}" width="555" height="360" alt="listing_city">
+                                                            <img class="img-responsive" src="{{secure_asset('destinations/abuja.jpg')}}" width="555" height="360" alt="listing_city">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -378,13 +378,13 @@
                                                         <div class="partner-item text-center">
                                                             <div class="partner-thumb">
                                                                 <!-- <a href="https://homeywp.com"> -->
-                                                                <img width="285" height="160" src="{{URL::secure_asset('partners/paystack.png')}}" class="img-responsive wp-post-image" alt="" />                                    <!-- </a> -->
+                                                                <img width="285" height="160" src="{{secure_asset('partners/paystack.png')}}" class="img-responsive wp-post-image" alt="" />                                    <!-- </a> -->
                                                             </div>
                                                         </div>
                                                         <div class="partner-item text-center">
                                                             <div class="partner-thumb">
                                                                 <!-- <a href="https://homeywp.com"> -->
-                                                                <img width="285" height="160" src="{{URL::secure_asset('partners/realtypro.png')}}" class="img-responsive wp-post-image" alt="" />                                    <!-- </a> -->
+                                                                <img width="285" height="160" src="{{secure_asset('partners/realtypro.png')}}" class="img-responsive wp-post-image" alt="" />                                    <!-- </a> -->
                                                             </div>
                                                         </div>
 

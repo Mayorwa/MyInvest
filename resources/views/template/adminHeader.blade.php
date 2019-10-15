@@ -11,7 +11,7 @@
                 <div class="kt-header__topbar-user">
                     <span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
                     <span class="kt-header__topbar-username kt-hidden-mobile">{{$usr->name}}</span>
-                    <img class="kt-hidden" alt="Pic" src="{{URL::secure_asset('assets2/media/users/300_25.jpg')}}" />
+                    <img class="kt-hidden" alt="Pic" src="{{secure_asset('assets2/media/users/300_25.jpg')}}" />
                     <!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
                     <span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold">{{$usr->name[0]}}</span>
                 </div>

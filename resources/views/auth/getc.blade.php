@@ -9,15 +9,15 @@
     <title>{{$title}}</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
     <link href="../../maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{URL::secure_asset('assets/css/app.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/app.css')}}">
     <!-- BEGIN VENDOR CSS-->
-    <link rel="stylesheet" type="text/css" href="{{URL::secure_asset('assets/css/vendors.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL::secure_asset('assets/vendors/css/forms/icheck/icheck.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL::secure_asset('assets/vendors/css/forms/icheck/custom.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL::secure_asset('assets/css/pages/login-register.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/vendors.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendors/css/forms/icheck/icheck.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendors/css/forms/icheck/custom.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/pages/login-register.css')}}">
     <!-- BEGIN Custom CSS-->
-    <link href="{{URL::secure_asset('assets/css/custom.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{URL::secure_asset('assets/css/custom-may.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('assets/css/custom.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('assets/css/custom-may.css')}}" rel="stylesheet" type="text/css" />
     <!-- END Custom CSS-->
 </head>
 <style>
@@ -43,7 +43,7 @@
                             <div class="card-header border-0">
                                 <div class="card-title text-center">
                                     <a href="{{URL('/')}}" class="p-1">
-                                        <img src="{{URL::secure_asset('logos/dark.png')}}" alt="MyyInvest Logo" width="200px" class="img-responsive">
+                                        <img src="{{secure_asset('logos/dark.png')}}" alt="MyyInvest Logo" width="200px" class="img-responsive">
                                     </a>
                                 </div>
                                 <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
@@ -62,7 +62,7 @@
                                             </div>
                                         </fieldset>
                                         <br>
-                                        <center><img id="loaderImg" src="{{URL::secure_asset('assets/images/loader.gif')}}" width="35px" class="img-responsive"/></center>
+                                        <center><img id="loaderImg" src="{{secure_asset('assets/images/loader.gif')}}" width="35px" class="img-responsive"/></center>
                                         <button type="submit" id="submitBtn" class="btn btn-info btn-md btn-block btn-dhsco-col">Get Code</button>
                                     </form>
                                 </div>
@@ -73,7 +73,7 @@
                             <div class="card-header border-0">
                                 <div class="card-title text-center">
                                     <a href="{{URL('/')}}" class="p-1">
-                                        <img src="{{URL::secure_asset('logos/dark.png')}}" alt="MyyCrib logo" width="200px" class="img-responsive">
+                                        <img src="{{secure_asset('logos/dark.png')}}" alt="MyyCrib logo" width="200px" class="img-responsive">
                                     </a>
                                 </div>
                                 <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
@@ -89,7 +89,7 @@
                                             <input type="text" maxlength="6" name="code" class="form-control form-control-lg input-lg" pattern="[0-9]" id="code" placeholder="- - - - - -" required>
                                         </fieldset>
                                         <br>
-                                        <center><img id="loaderImg" src="{{URL::secure_asset('assets/images/loader.gif')}}" width="35px" class="img-responsive"/></center>
+                                        <center><img id="loaderImg" src="{{secure_asset('assets/images/loader.gif')}}" width="35px" class="img-responsive"/></center>
 
                                         <button type="submit" id="submitBtn" class="btn btn-info btn-md btn-block btn-dhsco-col"><i class="ft-unlock"></i> Confirm Code</button>
                                     </form>
@@ -109,11 +109,11 @@
     var resizefunc = [];
 </script>
 
-<script src="{{URL::secure_asset('assets/vendors/js/vendors.min.js')}}" type="text/javascript"></script>
-<script src="{{URL::secure_asset('assets/vendors/js/ui/headroom.min.js')}}" type="text/javascript"></script>
-<script src="{{URL::secure_asset('assets/js/scripts/custom.js')}}" type="text/javascript"></script>
+<script src="{{secure_asset('assets/vendors/js/vendors.min.js')}}" type="text/javascript"></script>
+<script src="{{secure_asset('assets/vendors/js/ui/headroom.min.js')}}" type="text/javascript"></script>
+<script src="{{secure_asset('assets/js/scripts/custom.js')}}" type="text/javascript"></script>
 
-<script src="{{URL::secure_asset('assets/js/modules/auth.js')}}"></script>
+<script src="{{secure_asset('assets/js/modules/auth.js')}}"></script>
 <script>
     $('#confirmAccessForm').on('submit', function (e) {
         e.preventDefault();
@@ -184,9 +184,9 @@
         return false;
     });
 </script>
-<script src="{{URL::secure_asset('assets/js/scripts/forms/form-login-register.js')}}"></script>
-<script src="{{URL::secure_asset('assets/vendors/js/ui/headroom.min.js')}}"></script>
-<script src="{{URL::secure_asset('assets/vendors/js/forms/icheck/icheck.min.js')}}"></script>
+<script src="{{secure_asset('assets/js/scripts/forms/form-login-register.js')}}"></script>
+<script src="{{secure_asset('assets/vendors/js/ui/headroom.min.js')}}"></script>
+<script src="{{secure_asset('assets/vendors/js/forms/icheck/icheck.min.js')}}"></script>
 
 
 </body>
