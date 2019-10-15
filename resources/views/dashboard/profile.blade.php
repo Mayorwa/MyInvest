@@ -15,7 +15,7 @@
                 <div class="kt-widget kt-widget--user-profile-2">
                     <div class="kt-widget__head">
                         <div class="kt-widget__media">
-                            <img class="kt-widget__img kt-hidden-" src="{{URL::asset('assets/img/company.png')}}" alt="image">
+                            <img class="kt-widget__img kt-hidden-" src="{{URL::secure_asset('assets/img/company.png')}}" alt="image">
 {{--                            <div class="kt-widget__pic kt-widget__pic--warning kt-font-warning kt-font-boldest kt-hidden">--}}
 {{--                                TF--}}
 {{--                            </div>--}}

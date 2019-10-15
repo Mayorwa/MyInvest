@@ -20,23 +20,23 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css'  href='{{URL::asset('press-includes/css/dist/block-library/style.minbb49.css?ver=5.2.2')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='contact-form-7-css'  href='{{URL::asset('press-content/plugins/contact-form-7/includes/css/stylesbdeb.css?ver=5.1.3')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='rs-plugin-settings-css'  href='{{URL::asset('press-content/plugins/revslider/public/assets/css/settingsf542.css?ver=5.4.8.3')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'  href='{{URL::secure_asset('press-includes/css/dist/block-library/style.minbb49.css?ver=5.2.2')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'  href='{{URL::secure_asset('press-content/plugins/contact-form-7/includes/css/stylesbdeb.css?ver=5.1.3')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css'  href='{{URL::secure_asset('press-content/plugins/revslider/public/assets/css/settingsf542.css?ver=5.4.8.3')}}' type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
     </style>
-    <link rel='stylesheet' id='bootstrap-css'  href='{{URL::asset('press-content/themes/homey/css/bootstrap.min7433.css?ver=3.3.7')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='bootstrap-select-css'  href='{{URL::asset('press-content/themes/homey/css/bootstrap-selectba3a.css?ver=1.7.2')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css'  href='{{URL::asset('press-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min5b21.css?ver=6.0.2')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='swipebox-css'  href='{{URL::asset('press-content/themes/homey/css/swipebox.min6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='slick-css'  href='{{URL::asset('press-content/themes/homey/css/slick8a54.css?ver=1.0.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='slick-theme-css'  href='{{URL::asset('press-content/themes/homey/css/slick-theme8a54.css?ver=1.0.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='jquery-ui-css'  href='{{URL::asset('press-content/themes/homey/css/jquery-ui4d85.css?ver=1.12.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='radio-checkbox-css'  href='{{URL::asset('press-content/themes/homey/css/radio-checkbox8a54.css?ver=1.0.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='homey-main-css'  href='{{URL::asset('press-content/themes/homey/css/main6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='homey-styling-options-css'  href='{{URL::asset('press-content/themes/homey/css/styling-options6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='homey-style-css'  href='{{URL::asset('press-content/themes/homey/style6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css'  href='{{URL::secure_asset('press-content/themes/homey/css/bootstrap.min7433.css?ver=3.3.7')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-select-css'  href='{{URL::secure_asset('press-content/themes/homey/css/bootstrap-selectba3a.css?ver=1.7.2')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css'  href='{{URL::secure_asset('press-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min5b21.css?ver=6.0.2')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='swipebox-css'  href='{{URL::secure_asset('press-content/themes/homey/css/swipebox.min6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='slick-css'  href='{{URL::secure_asset('press-content/themes/homey/css/slick8a54.css?ver=1.0.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='slick-theme-css'  href='{{URL::secure_asset('press-content/themes/homey/css/slick-theme8a54.css?ver=1.0.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-ui-css'  href='{{URL::secure_asset('press-content/themes/homey/css/jquery-ui4d85.css?ver=1.12.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='radio-checkbox-css'  href='{{URL::secure_asset('press-content/themes/homey/css/radio-checkbox8a54.css?ver=1.0.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='homey-main-css'  href='{{URL::secure_asset('press-content/themes/homey/css/main6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='homey-styling-options-css'  href='{{URL::secure_asset('press-content/themes/homey/css/styling-options6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='homey-style-css'  href='{{URL::secure_asset('press-content/themes/homey/style6f3e.css?ver=1.3.0')}}' type='text/css' media='all' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
 
     <!--jQuery-->
@@ -705,7 +705,7 @@
     <!--[if lt IE 9]>
     <link rel='stylesheet' id='vc_lte_ie9-css'  href='https://demo01.gethomey.io/press-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.2' type='text/css' media='screen' />
     <![endif]-->
-    <link rel='stylesheet' id='js_composer_front-css'  href='{{URL::asset('press-content/plugins/js_composer/assets/css/js_composer.min5b21.css?ver=6.0.2')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css'  href='{{URL::secure_asset('press-content/plugins/js_composer/assets/css/js_composer.min5b21.css?ver=6.0.2')}}' type='text/css' media='all' />
     <style id='js_composer_front-inline-css' type='text/css'>
         .vc_custom_1539966302417{margin-top: -20px !important;background-color: #ffffff !important;}
         .vc_custom_1541794064012{padding-top: 150px !important;padding-bottom: 180px !important;}
@@ -716,9 +716,9 @@
         .vc_custom_1550804131709{margin-top: -30px !important;}
         .vc_custom_1550804150126{margin-top: 20px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-right: 0px !important;padding-left: 0px !important;}
     </style>
-    <script type='text/javascript' src='{{URL::asset('press-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp')}}'></script>
-    <script type='text/javascript' src='{{URL::asset('press-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1')}}'></script>
-    <script type='text/javascript' src='{{URL::asset('press-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.minf542.js?ver=5.4.8.3')}}'></script>
-    <script type='text/javascript' src='{{URL::asset('press-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.minf542.js?ver=5.4.8.3')}}'></script>
+    <script type='text/javascript' src='{{URL::secure_asset('press-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp')}}'></script>
+    <script type='text/javascript' src='{{URL::secure_asset('press-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1')}}'></script>
+    <script type='text/javascript' src='{{URL::secure_asset('press-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.minf542.js?ver=5.4.8.3')}}'></script>
+    <script type='text/javascript' src='{{URL::secure_asset('press-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.minf542.js?ver=5.4.8.3')}}'></script>
     <noscript>
         <style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>

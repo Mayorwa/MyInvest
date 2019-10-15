@@ -6,7 +6,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><div id="homey_about_widget-7" class="widget footer-widget widget-about">
                         <div class="widget-body">
                             <p>
-                                <img src="{{URL::asset('logos/dark.png')}}" style="max-width: 70%;" alt="img">
+                                <img src="{{URL::secure_asset('logos/dark.png')}}" style="max-width: 70%;" alt="img">
                             </p>
 
                             <p style="text-transform: lowercase">MYYINVEST IS A DIGITAL INVESTMENT PLATFORM OF MYYCRIB THAT MAKES  IT CONVENIENT TO ACQUIRE REAL ESTATE WITH MINIMAL INVESTMENT . THE PLATFORM DIGITALIZES THE INVESTMENT TO ACQISITION PROCESSES,  MAKING PROPERTY INVESTMENT SEAMLESS.</p>

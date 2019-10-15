@@ -5,14 +5,14 @@
 
     <title>{{ $title }}</title>
     <link rel="icon" type="image/png" href="{{ asset('logos/icon-dark.png') }}" sizes="60x60">
-    <link rel='stylesheet' id='bootstrap-css'  href='{{URL::asset('css/bootstrap.min7433.css')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css'  href='{{URL::secure_asset('css/bootstrap.min7433.css')}}' type='text/css' media='all' />
     <script src="https://kit.fontawesome.com/1e3ac2580e.js"></script>
-    <link rel='stylesheet' id='homey-main-css'  href='{{URL::asset('css/main6f3e.css')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='homey-styling-options-css'  href='{{URL::asset('css/styling-options6f3e.css')}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='homey-style-css'  href='{{URL::asset('css/style6f3e.css')}}' type='text/css' media='all' />
-    <script type='text/javascript' src='{{URL::asset('js/jquery/jquery4a5f.js')}}'></script>
+    <link rel='stylesheet' id='homey-main-css'  href='{{URL::secure_asset('css/main6f3e.css')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='homey-styling-options-css'  href='{{URL::secure_asset('css/styling-options6f3e.css')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='homey-style-css'  href='{{URL::secure_asset('css/style6f3e.css')}}' type='text/css' media='all' />
+    <script type='text/javascript' src='{{URL::secure_asset('js/jquery/jquery4a5f.js')}}'></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery-3.1.1.min.js') }}"></script>
-    <link rel='stylesheet' id='homey-style-css'  href='{{URL::asset('css/styles.css')}}' type='text/css' media='all' />
+    <link rel='stylesheet' id='homey-style-css'  href='{{URL::secure_asset('css/styles.css')}}' type='text/css' media='all' />
 {{--    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">--}}
     <style type='text/css'>
         .alert{
