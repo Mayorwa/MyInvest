@@ -135,7 +135,7 @@
                                         </tr>
                                     @empty
                                         <div style="margin: 0 auto; width: 200px;padding-top: 20px; padding-bottom: 20px;">
-                                            <img src="{{URL("/").'/images/notFound.png'}}" style="width: 180px;" class="img-responsive">
+                                            <img src="{{URL("/").'/public/images/notFound.png'}}" style="width: 180px;" class="img-responsive">
                                             <p style="font-size: 20px; font-weight: bold">No Results Found</p>
                                         </div>
                                     @endforelse
