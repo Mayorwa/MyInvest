@@ -14,15 +14,15 @@
         });
     </script>
 
-    <link rel='stylesheet' id='homey-main-css'  href='{{secure_asset('css/main6f3e.css')}}' type='text/css' media='all' />
-    <link href="{{secure_asset('assets2/vendors/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{secure_asset('assets2/vendors/global/vendors.bundle.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{secure_asset('assets2/css/demo1/style.bundle.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{secure_asset('assets2/css/demo1/skins/header/base/light.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{secure_asset('assets2/css/demo1/skins/header/menu/light.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{secure_asset('assets2/css/demo1/skins/brand/dark.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{secure_asset('assets2/css/demo1/skins/aside/dark.css')}}" rel="stylesheet" type="text/css" />
-    <script src="{{secure_asset('assets/js/jquery-3.1.1.min.js')}}" type="text/javascript"></script>
+    <link rel='stylesheet' id='homey-main-css'  href='{{secure_asset('public/css/main6f3e.css')}}' type='text/css' media='all' />
+    <link href="{{secure_asset('public/assets2/vendors/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('public/assets2/vendors/global/vendors.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('public/assets2/css/demo1/style.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('public/assets2/css/demo1/skins/header/base/light.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('public/assets2/css/demo1/skins/header/menu/light.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('public/assets2/css/demo1/skins/brand/dark.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{secure_asset('public/assets2/css/demo1/skins/aside/dark.css')}}" rel="stylesheet" type="text/css" />
+    <script src="{{secure_asset('public/assets/js/jquery-3.1.1.min.js')}}" type="text/javascript"></script>
     <style>
         .dhsco-cards{
             border-radius: 6px;

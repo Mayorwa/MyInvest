@@ -1,7 +1,7 @@
-<script type='text/javascript' src='{{secure_asset('js/bootstrap.min7433.js')}}'></script>
-<script type='text/javascript' src='{{secure_asset('js/homey-ajax6f3e.js')}}'></script>
-<script type='text/javascript' src='{{secure_asset('js/custom6f3e.js')}}'></script>
-<script type='text/javascript' src='{{secure_asset('js/skrollr.min5b21.js')}}'></script>
+<script type='text/javascript' src='{{secure_asset('public/js/bootstrap.min7433.js')}}'></script>
+<script type='text/javascript' src='{{secure_asset('public/js/homey-ajax6f3e.js')}}'></script>
+<script type='text/javascript' src='{{secure_asset('public/js/custom6f3e.js')}}'></script>
+<script type='text/javascript' src='{{secure_asset('public/js/skrollr.min5b21.js')}}'></script>
 <script>
     $('#navbtn').click(function(){
         let attrBute  = $(this).attr('aria-expanded');

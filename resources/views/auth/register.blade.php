@@ -12,11 +12,11 @@
 
 
     <!-- STYLESHEETS-->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('libraries/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('public/libraries/bootstrap/css/bootstrap.min.css')}}">
 
     <!-- CUSTOM STYLES -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/main.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/index.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/css/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/css/index.css')}}">
 
 
 
@@ -52,7 +52,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{URL('/')}}"><img src="{{secure_asset('logos/dark.png')}}" class="__logo"></a>
+                    <a class="navbar-brand" href="{{URL('/')}}"><img src="{{secure_asset('public/logos/dark.png')}}" class="__logo"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -73,7 +73,7 @@
                 <p class="__loginlabel">Company Registeration</p>
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-5">
-                        <img src="{{secure_asset('assets/img/2489915.jpg')}}" class="img-responsive" style="padding-top: 80px;">
+                        <img src="{{secure_asset('public/assets/img/2489915.jpg')}}" class="img-responsive" style="padding-top: 80px;">
                     </div>
                     <div class="col-lg-1 col-md-1 col-sm-1" style="width: 1%;">
                         <div class="__line hidden-xs"></div>
@@ -161,10 +161,10 @@
 
 <section></section>
 
-<script type="text/javascript" src="{{secure_asset('libraries/bootstrap/js/jquery-3.1.1.min.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('public/libraries/bootstrap/js/jquery-3.1.1.min.js')}}"></script>
 
-<script src="{{secure_asset('libraries/bootstrap/js/bootstrap.min.js')}}"></script>
-<script src="{{secure_asset('assets/js/main.js')}}"></script>
+<script src="{{secure_asset('public/libraries/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{secure_asset('public/assets/js/main.js')}}"></script>
 
 
 

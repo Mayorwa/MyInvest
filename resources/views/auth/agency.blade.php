@@ -5,10 +5,10 @@
         <div class="kt-grid kt-grid--hor kt-grid--root  kt-login kt-login--v1" id="kt_login">
             <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--desktop kt-grid--ver-desktop kt-grid--hor-tablet-and-mobile">
                 <!--begin::Aside-->
-                <div class="kt-grid__item kt-grid__item--order-tablet-and-mobile-2 kt-grid kt-grid--hor kt-login__aside" style="background-image: url({{secure_asset('login/agency.png')}});">
+                <div class="kt-grid__item kt-grid__item--order-tablet-and-mobile-2 kt-grid kt-grid--hor kt-login__aside" style="background-image: url({{secure_asset('public/login/agency.png')}});">
                     <div class="kt-grid__item">
                         <a href="{{URL('/')}}" class="kt-login__logo">
-                            <img src="{{secure_asset('logos/dark.png')}}" style="width: 190px; height: 65px;">
+                            <img src="{{secure_asset('public/logos/dark.png')}}" style="width: 190px; height: 65px;">
                         </a>
                     </div>
                     <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver">
