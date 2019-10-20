@@ -44,8 +44,8 @@
                             <td><sup>₦</sup>{{ App\Http\Helpers\Helper::MoneyConvert($transaction->amountPaid, "full") }}</td>
                             <td><sup>₦</sup>{{ App\Http\Helpers\Helper::MoneyConvert($transaction->amountOutstand, "full")}}</td>
                             <td>
-                                @if($agent !== null)
-                                    {{$agent->user->name}}
+                                @if($transaction->agent !== null)
+                                    {{$transaction->agent->user->name}}
                                 @else
                                     None
                                 @endif

@@ -132,14 +132,14 @@ class PageController extends Controller
 
                 $transaction->amountinTotal = $transaction->transactions[0]->amount * $transaction->cycle;
 
-                $getAgent = $this->agency->where("id",$transaction->referredId)->first();
-                if($getAgent !== null) {
-                    $getAgent->user = $this->user->where('id', $getAgent->userId)->first();
+                $transaction->agent = $this->agency->where("id",$transaction->referredId)->first();
+                if($transaction->agent !== null) {
+                    $transaction->agent->user = $this->user->where('id', $transaction->agent->userId)->first();
                 }
                 $transaction->amountPaid = $transaction->transactions[0]->amount * $transaction->cycleCompleted;
                 $transaction->amountOutstand = ($transaction->transactions[0]->amount * $transaction->cycle) - ($transaction->transactions[0]->amount * $transaction->cycleCompleted);
             }
-            $data = ['title' => 'Dashboard: Estate','page' => 'Estate','estate' => $estates, 'transactions' => $transactions, 'agent' => $getAgent];
+            $data = ['title' => 'Dashboard: Estate','page' => 'Estate','estate' => $estates, 'transactions' => $transactions,];
             return view('dashboard.single.estate',$data);
 
         } catch(\Exception $e){

@@ -44,9 +44,9 @@ class PageController extends Controller
 
                 $transaction->amountinTotal = $transaction->transactions[0]->amount * $transaction->cycle;
 
-                $getAgent = $this->agency->where("id",$transaction->referredId)->first();
-                if($getAgent !== null) {
-                    $getAgent->user = $user;
+                $transaction->agent = $this->agency->where("id",$transaction->referredId)->first();
+                if($transaction->agent !== null) {
+                    $transaction->agent->user = $user;
                 }
                 $transaction->amountPaid = $transaction->transactions[0]->amount * $transaction->cycleCompleted;
                 $transaction->amountOutstand = ($transaction->transactions[0]->amount * $transaction->cycle) - ($transaction->transactions[0]->amount * $transaction->cycleCompleted);
@@ -64,7 +64,6 @@ class PageController extends Controller
                 'page' => 'Overview',
                 "estates" => $estates,
                 "lands" => $lands,
-                'agent' => $getAgent,
                 "completedTrnx" => $completedTrnx,
                 "transactions" => $transactions,
             ];
@@ -73,7 +72,6 @@ class PageController extends Controller
 
         } catch(\Exception $e){
             \Session::put('red', true);
-            dd($e->getMessage());
             return redirect('/')->withErrors($e->getMessage());
         }
     }
@@ -123,9 +121,9 @@ class PageController extends Controller
 
                 $transaction->amountinTotal = $transaction->transactions[0]->amount * $transaction->cycle;
 
-                $getAgent = $this->agency->where("id",$transaction->referredId)->first();
-                if($getAgent !== null) {
-                    $getAgent->user = $user;
+                $transaction->agent = $this->agency->where("id",$transaction->referredId)->first();
+                if($transaction->agent !== null) {
+                    $transaction->agent->user = $user;
                 }
                 $transaction->amountPaid = $transaction->transactions[0]->amount * $transaction->cycleCompleted;
                 $transaction->amountOutstand = ($transaction->transactions[0]->amount * $transaction->cycle) - ($transaction->transactions[0]->amount * $transaction->cycleCompleted);
@@ -133,7 +131,6 @@ class PageController extends Controller
             $data = [
                 'title' => 'Dashboard: Transaction',
                 'page' => 'Transaction',
-                'agent' => $getAgent,
                 "transactions" => $transactions,
             ];
             return view('user.transactions',$data);

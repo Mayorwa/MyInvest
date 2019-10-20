@@ -3,6 +3,9 @@
         line-height: unset;
         padding-top:10px;
     }
+    .allblack ul li a, .allblack ul li, .allblack ul{
+        color: #000 !important;
+    }
 </style>
 <div class="nav-area header-type-1 transparent-header">
     <header id="homey_nav_sticky" class="header-nav hidden-sm hidden-xs" data-sticky="1">
@@ -36,7 +39,7 @@
                 </div>
 
                 <div class="header-comp-right">
-                    <div class="account-login">
+                    <div class="account-login allblack">
                         @if($usr !== null)
                             @if($usr->type !== "company")
                                 <ul class="login-register list-inline">
